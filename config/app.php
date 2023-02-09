@@ -16,6 +16,7 @@ return [
     */
 
     'name' => env('APP_NAME', 'Laravel'),
+	'author' => env('APP_AUTHOR', 'Laravel'),
 
     /*
     |--------------------------------------------------------------------------
@@ -57,6 +58,18 @@ return [
     'url' => env('APP_URL', 'http://localhost'),
 
     'asset_url' => env('ASSET_URL'),
+
+		/*
+    |--------------------------------------------------------------------------
+    | Manifest Path
+    |--------------------------------------------------------------------------
+    |
+    | This key is used by the assets helper service and should be set
+    | to a random, 10 character string, Please do this before deploying an application!
+    |
+    */
+
+	'manifest_path' => env('MANIFEST_PATH', file_get_contents(public_path('manifest.txt'))),
 
     /*
     |--------------------------------------------------------------------------

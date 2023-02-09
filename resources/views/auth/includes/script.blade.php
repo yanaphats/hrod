@@ -1,0 +1,1 @@
+<script src="{{ assets('app-' . config('app.manifest_path') . '.min.js') }}"></script>
