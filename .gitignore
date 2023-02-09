@@ -1,0 +1,60 @@
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/public/manifest.txt
+/storage/*.key
+/vendor
+.env
+.env.backup
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+auth.json
+npm-debug.log
+yarn-error.log
+/.idea
+
+# VSCode
+.vscode
+/.vscode
+
+# Cache files
+.DS_Store
+.DS_Store.moved
+*.~*~
+*.cache
+sitemap.xml
+
+# Thumbnails
+._*
+Thumbs.db
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+.git-ftp-tmp
+
+# Ignore tmp and lib/build files manage by bower/grunt
+node_modules/*
+!node_modules/.gitkeep
+
+# two most common libs folder locations
+npm-debug.log
+logs/*
+!logs/.gitkeep
+.tmp
+test-results/*
+yslow.tap
+public/assets/stylesheet/
+!public/assets/stylesheet/css/
+public/assets/javascript/
+public/assets/rev-manifest*
+
+#build files
+example/public/*
+public/javascript/*
+public/stylesheet/*
+public/qrcode/*
+storage/*
